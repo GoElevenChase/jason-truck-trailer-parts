@@ -1,0 +1,32 @@
+{
+  "name": "elevenchase-site-starter",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "npm@11.9.0",
+  "description": "ElevenChase's independent, reusable Next.js starter for client websites and two-design presentations.",
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "prebuild": "npm run check:config && node scripts/clean-export.mjs",
+    "build": "next build",
+    "check:config": "node --import tsx scripts/check-config.mjs",
+    "check": "npm run check:config && tsc --noEmit",
+    "test": "node --import tsx --test --test-isolation=none tests/*.test.ts",
+    "test:export": "node scripts/verify-export.mjs",
+    "start": "serve out"
+  },
+  "dependencies": {
+    "@next/env": "16.4.2",
+    "next": "16.4.2",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5.9.3",
+    "tsx": "^4.23.0",
+    "serve": "^14.2.4"
+  }
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f4f3ed"/>
+  <path d="M78 64h15v35H78zm24 0h15v35h-15z" fill="#243523"/>
+  <text x="135" y="90" font-family="Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="-1" fill="#243523">ELEVENCHASE</text>
+  <text x="80" y="225" font-family="Arial,sans-serif" font-size="83" letter-spacing="-5" fill="#243523">Built for your</text>
+  <text x="80" y="325" font-family="Arial,sans-serif" font-size="83" letter-spacing="-5" fill="#243523">next big move.</text>
+  <text x="84" y="395" font-family="Arial,sans-serif" font-size="24" fill="#67765e">Websites. Automation. Custom software.</text>
+  <rect x="82" y="470" width="274" height="58" rx="29" fill="#243523"/>
+  <text x="110" y="507" font-family="Arial,sans-serif" font-size="20" fill="#f4f3ed">Let’s build something ↗</text>
+  <g transform="translate(875 303) rotate(-12)"><circle r="182" fill="#dcf68b"/><circle r="143" fill="none" stroke="#8ea855"/><rect x="-85" y="-77" width="66" height="154" rx="7" fill="#243523"/><rect x="21" y="-77" width="66" height="154" rx="7" fill="#243523"/></g>
+  <text x="835" y="558" font-family="Arial,sans-serif" font-size="17" fill="#67765e">elevenchase.com</text>
+</svg>
